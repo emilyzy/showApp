@@ -84,7 +84,7 @@
 
 #header-filter {
     width: 2.65rem;
-    height: 1.28rem;
+    height: 1.35rem;
     background: #fff;
     position: absolute;
     left: 0.23rem;
@@ -95,6 +95,7 @@
     padding-top: 0.27rem;
     padding-left: 0.07rem;
     display: none;
+    z-index: 99;
 }
 
 #header-filter:before {
@@ -117,8 +118,8 @@
 #header-filter input {
     width: 0.15rem;
     height: 0.15rem;
-    vertical-align: bottom; /*文字和表单居中对齐，vertical-align垂直对齐*/
-    margin-right: 0.05rem;
+    vertical-align: center; /*文字和表单居中对齐，vertical-align垂直对齐*/
+    margin-left: 0.08rem;
 }
 
 #header-input:focus ~ div {
@@ -577,6 +578,11 @@ h3 {
     height: 4.1rem;
     background: #ffffff;
 }
+.con-bot{
+    width: 3.4rem;
+    height: 1.7rem;
+    padding:0 0.06rem;
+}
 
 .content img {
     width: 3.42rem;
@@ -768,7 +774,7 @@ h3 {
 .article-substance {
     width: 4.43rem;
     height: 2.99rem;
-    padding-top: 0.26rem;
+    padding: 0.02rem 0.12rem;
     background: white;
 }
 
@@ -836,7 +842,7 @@ h3 {
     height: 0.23rem;
     border-radius: 0.12rem;
     background: #f2c744;
-    font-size: 0.14rem;
+    font-size: 10px;
     color: white;
     text-align: center;
 }
