@@ -112,7 +112,7 @@
 
 #header-filter label {
     float: left;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 #header-filter input {
@@ -258,7 +258,7 @@
     position: absolute;
     top: 1.91rem;
     left: 6.74rem;
-    background: url("../img/banner-pager.png") no-repeat center center/100% auto;
+    background: url("../img/banner-pager.png") no-repeat center/100% auto;
 }
 
 #banner-decoration1 {
@@ -268,7 +268,7 @@
     position: absolute;
     left: 6.76rem;
     top: 1.24rem;
-    opacity: 32%;
+    opacity: 0.32;
 }
 
 #banner-decoration2 {
@@ -752,7 +752,7 @@ h3 {
 
 #article-banner {
     width: 100%;
-    height: 3.99rem;
+    padding-top: 0.3rem;
     background: #f4f4f4;
 }
 
